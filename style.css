@@ -1,0 +1,185 @@
+@import url('https://fonts.cdnfonts.com/css/trochut');
+@import url('https://fonts.cdnfonts.com/css/turret-road');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FCFCFC;
+}
+
+header{
+    height: 5vh;
+    background-color: #FCFCFC;
+}
+
+header p{
+    font-family: 'Trochut', sans-serif;
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+main{
+    height: 410vh;
+    position: relative;
+}
+
+section{
+    height: 110vh;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+
+
+
+main #dark{
+    position: fixed;
+    height: 700px;
+    right: 15%;
+    margin-left: 10%;
+    z-index: 3;
+}
+
+main section #gauche{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section div #texte {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+main section div #texte h1{
+    font-size: 120px;
+    font-family: 'Trochut', sans-serif;
+    font-weight: lighter;
+}
+
+main section div #texte h2{
+    font-size: 60px;
+    font-family: 'Turret Road', sans-serif;
+    font-weight: lighter;
+}
+
+main section div div {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main section div #arrow {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+main section div #arrow img{
+    height: 150px;
+    margin-left: 50px;
+}
+
+main section #Cercle{
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    background-color: #8F2424;
+    border-radius: 100%;
+    right: 30px;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+#info{
+    height: 100vh;
+    display: flex;
+}
+
+#info #rieninfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#info #rieninfo img{
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#info #divinfo{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info #divinfo p{
+    text-align: center;
+    height: 50%;
+    width: 70%;
+    font-family: 'Turret Road', sans-serif;
+    font-size: x-large;
+}
+
+#siths{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+#siths div{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#siths div img{
+    height: 100%;
+}
+
+#siths div #boba{
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+#anakin{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #eae9e9;
+}
+
+#anakin div{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#anakin div img{
+    height: 100%;
+}
+
+
